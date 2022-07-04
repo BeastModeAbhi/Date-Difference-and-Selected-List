@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Activites</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+  <div id="mySelected">
+  </div>
+  <div class="background"></div>
+    
+      
+        <h1 >Activities !</h1>
+        <div class="flexer row" >   
+        <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/adventure.jpg" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox"   class="bottom-right" name="activities[]" value="Adventure Sports" id="AS" onclick="myFunc('AS')">
+            <div class="card-body">
+              <p class="card-text-centered">Adventure Sports </p>
+            </div>
+          </div>
+        <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/camping.png" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Camping & Treking" id="CT" onclick="myFunc('CT')">
+            <div class="card-body">
+              <p class="card-text-centered">Camping & Treking</p>
+            </div>
+          </div>  
+        
+        <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/nature.jpg" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Nature" id="N" onclick="myFunc('N')">
+            <div class="card-body">
+              <p class="card-text-centered">Nature</p>
+            </div>
+          </div>
+          <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/cafe.jpg" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Cafes & Nightlife" id="CN" onclick="myFunc('CN')">
+            <div class="card-body">
+              <p class="card-text-centered">Cafes & Nightlife</p>
+            </div>
+          </div>
+        </div> 
+        <div class="flexer row">
+        <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/art.jpg" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Art & Culture" id="AC" onclick="myFunc('AC')">
+            <div class="card-body">
+              <p class="card-text-centered">Art & Culture</p>
+            </div>
+          </div>  
+        
+        <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/health.jpg" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Health & Wellness" id="HW" onclick="myFunc('HW')">
+            <div class="card-body">
+              <p class="card-text-centered">Health & Wellness</p>
+            </div>
+          </div>
+        <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/location.jpg" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Offbeat Places" id="OP" onclick="myFunc('OP')">
+            <div class="card-body">
+              <p class="card-text-centered">Offbeat Places</p>
+            </div>
+          </div>
+          <div class="card ms-5 col-3" style="width: 14rem; height: fit-content;">
+            <img src="./assets/others.png" class="card-img-top" alt="..." margin-right="">
+            <input type="checkbox" class="bottom-right" name="activities[]" value="Others" id="O" onclick="myFunc('O')">
+            <div class="card-body">
+              <p class="card-text-centered">Others</p>
+            </div>
+          </div> 
+        </div>
+        
+    
+    
+   </div>
+   <script
+   src="https://code.jquery.com/jquery-3.6.0.js"
+   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+   crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
